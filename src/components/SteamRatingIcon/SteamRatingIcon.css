@@ -1,0 +1,21 @@
+.steam-rating-icon {
+  width: 2.5vw;
+  height: auto;
+  vertical-align: middle;
+}
+
+.rating-icon-blue {
+  filter: invert(31%) sepia(88%) saturate(2184%) hue-rotate(188deg) brightness(90%) contrast(105%); /* #0078D7 */
+}
+
+.rating-icon-yellow {
+  filter: invert(78%) sepia(19%) saturate(7036%) hue-rotate(3deg) brightness(104%) contrast(100%); /* #FFB900 */
+}
+
+.rating-icon-red {
+  filter: invert(17%) sepia(68%) saturate(4889%) hue-rotate(346deg) brightness(90%) contrast(104%); /* #E81123 */
+}
+
+.rating-icon-grey .steam-rating-icon {
+  filter: grayscale(100%);
+}
