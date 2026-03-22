@@ -1,0 +1,14 @@
+.game-sales-table {
+    border: 5px var(--border-color) solid;
+}
+
+th {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border-right: 2px solid var(--text-primary);
+    font-weight: 600;
+}
+
+th:last-child {
+  border-right: none;
+}

@@ -1,5 +1,6 @@
 import type { Game } from "../../interfaces/Game";
 import GameCard from "../GameCard/GameCard";
+import "./GameSales.css"
 
 export default function GameSales({ data }: { data: Game[] }){
     return (
