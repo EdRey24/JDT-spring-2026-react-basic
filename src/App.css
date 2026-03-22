@@ -1,0 +1,43 @@
+:root {
+  --bg-primary: #121212;       
+  --bg-secondary: #1e1e1e;     
+  --bg-tertiary: #2c2c2c;      
+  --row-stripe: rgba(255, 255, 255, 0.05);
+  --box-shadow: #444444;
+
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --text-link: #90caf9;        
+  --text-link-hover: #bbdef5;  
+
+  --border-color: #333333;
+}
+
+.parent {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+    font-size: x-large;
+    color: var(--text-secondary);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: var(--text-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-link-hover);
+  text-decoration: underline;
+}

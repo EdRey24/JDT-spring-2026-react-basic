@@ -1,6 +1,7 @@
 import { useEffect, useState} from "react";
 import type { Game } from "./interfaces/Game";
 import GameSales from "./components/GameSales/GameSales";
+import "./App.css"
 
 export default function App() {
   const [data, setData] = useState<Game[]>([]);
@@ -50,9 +51,9 @@ export default function App() {
   }, [loading, hasMore, page]);
 
   return (
-    <>
+    <div className="parent">
       <GameSales data={data} />
       {loading && <div className="loading">Loading more games...</div>}
-    </>
+    </div>
   );
 }
