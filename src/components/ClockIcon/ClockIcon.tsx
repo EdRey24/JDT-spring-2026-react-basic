@@ -14,7 +14,7 @@ export default function ClockIcon({ lastChange }: { lastChange: number}){
     } else if (diffDays < 30){
         color = "red";
     } else {
-        color = "black";
+        color = "white";
     }
 
     const getTimeAgo = (seconds: number): string => {

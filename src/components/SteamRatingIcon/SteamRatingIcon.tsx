@@ -25,7 +25,7 @@ export default function SteamRatingIcon({ game }: { game: Game }) {
     color = "red";
   } else {
     iconSrc = question;
-    color = "grey";
+    color = "white";
   }
 
   const displayText = ratingText || "Unknown";

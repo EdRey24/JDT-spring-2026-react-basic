@@ -16,6 +16,6 @@
   filter: invert(17%) sepia(68%) saturate(4889%) hue-rotate(346deg) brightness(90%) contrast(104%); /* #E81123 */
 }
 
-.rating-icon-grey .steam-rating-icon {
-  filter: grayscale(100%);
+.rating-icon-white .steam-rating-icon {
+  filter: brightness(0) invert(1);
 }

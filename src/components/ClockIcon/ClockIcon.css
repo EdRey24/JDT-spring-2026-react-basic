@@ -20,6 +20,6 @@
 .clock-icon-red {
   filter: invert(15%) sepia(52%) saturate(6792%) hue-rotate(356deg) brightness(110%) contrast(123%); /* #ff0200 */
 }
-.clock-icon-black {
-  filter: brightness(0);
+.clock-icon-white {
+  filter: brightness(0) invert(1);
 }
