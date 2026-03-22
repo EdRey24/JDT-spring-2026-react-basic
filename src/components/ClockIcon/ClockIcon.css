@@ -14,8 +14,8 @@
 .clock-icon-green {
   filter: invert(42%) sepia(87%) saturate(884%) hue-rotate(83deg) brightness(93%) contrast(109%); /* #02ad03 */
 }
-.clock-icon-orange {
-  filter: invert(85%) sepia(26%) saturate(6178%) hue-rotate(355deg) brightness(101%) contrast(106%); /* #ffb902 */
+.clock-icon-yellow {
+  filter: invert(72%) sepia(92%) saturate(1122%) hue-rotate(351deg) brightness(102%) contrast(104%); /* #ffc107 */
 }
 .clock-icon-red {
   filter: invert(15%) sepia(52%) saturate(6792%) hue-rotate(356deg) brightness(110%) contrast(123%); /* #ff0200 */

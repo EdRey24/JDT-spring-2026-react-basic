@@ -10,7 +10,7 @@ export default function ClockIcon({ lastChange }: { lastChange: number}){
     if (diffDays < 1){
         color = "green";
     } else if (diffDays < 7){
-        color = "orange";
+        color = "yellow";
     } else if (diffDays < 30){
         color = "red";
     } else {
