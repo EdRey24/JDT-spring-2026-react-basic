@@ -1,6 +1,7 @@
 export interface Game {
     title: string;
     storeID: string;
+    dealID: string;
     gameID: string;
     salePrice: string;
     normalPrice: string;
@@ -8,8 +9,8 @@ export interface Game {
     steamRatingText: string;
     steamRatingPercent: string;
     steamRatingCount: string;
-    steamAppID: string;
-    releaseDate: number;
+    releaseDate: number; // seconds since the epoch
+    lastChange: number; // seconds since the epoch
     dealRating: string;
     thumb: string;
 }
