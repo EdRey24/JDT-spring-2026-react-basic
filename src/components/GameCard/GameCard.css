@@ -11,7 +11,11 @@
 .game-card td {
   vertical-align: middle;
   padding: 1.5% 1%;
-  border-bottom: 0.06vh solid #eeeeee;
+  border-bottom: 0.06vh solid var(--border-color);
+}
+
+.game-card:nth-child(even) td {
+  background-color: var(--row-stripe);
 }
 
 .game-card td img {
@@ -70,7 +74,7 @@
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: var(--bg-tertiary);
   margin-right: 3%;
   vertical-align: middle;
   box-shadow: 3px 3px 5px black;
